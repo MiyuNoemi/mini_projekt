@@ -1,16 +1,25 @@
 * {
     margin: 0;
     padding: 0;
-     box-sizing: border-box;
+    box-sizing: border-box;
   }
-
 
 $font-one: 'Roboto Condensed', sans-serif;
 $font-two: 'Roboto', sans-serif;
 $font-logo: 'Pacifico', cursive;
-$color: orange;
+$color-logo: orange;
+$color-one: white;
+$color-two: black;
 
 /*header*/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
 
 nav {
     max-width: 1140px;
@@ -46,7 +55,7 @@ nav a {
     text-decoration: none;
     font-family: $font-two;
     padding: 10px 20px;
-    color: black;
+    color: $color-one;
     font-size: 20px;
     
 }
@@ -59,7 +68,7 @@ div.welcome {
 
 div.welcome h1 ,
 div.welcome h2 {   
-    color: white;
+    color: $color-one;
     font-family: $font-one;  
 }
 
@@ -78,7 +87,7 @@ button {
     padding: 20px 35px;
     border-radius: 5%;
     border: $color solid 1px;
-    background: black;
+    background: $color-two;
     color: $color;
     text-transform: uppercase;
     font-size: 20px;
