@@ -91,32 +91,10 @@ header img {
 }
 
 /*container-one*/
-.container {
-  height: 50vh;
-  text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
 .title {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-size: 40px;
   margin: 10px 10px;
-}
-
-.row {
-  position: relative;
-  margin-top: 50px;
-  -ms-flex-pack: center;
-      justify-content: center;
-  padding: 50px 50px;
-  height: 100%;
-}
-
-.row img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=style.css.map */
