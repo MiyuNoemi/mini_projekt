@@ -162,4 +162,28 @@ header img {
     bottom: -30%;
 }
 
+.footer{
+    height: 10vh;
+    background: rgb(239, 237, 237);
+}
+
+.txt {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 10vh;
+}
+
+.icon {
+    display: inline-block;
+    line-height: 5vh;
+    margin: 20px; 
+    padding: 0 15px 0 15px; 
+    border-radius: 20%;
+}
+
+.icon a {
+    text-decoration: none;
+    color: $color-logo;
+    font-size: 20px;
+}
 
