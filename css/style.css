@@ -90,7 +90,24 @@ header img {
   z-index: -1;
 }
 
-/*container-one*/
+/*container-info*/
+.info {
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.card {
+  margin-top: 70px;
+  padding-left: 75px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.card-body {
+  margin-top: 200px;
+  margin-left: -110px;
+}
+
 .title {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
