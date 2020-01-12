@@ -90,9 +90,10 @@ header img {
   z-index: -1;
 }
 
-.info {
+.info,
+.title {
   text-align: center;
-  margin: 30px 0 30px 0;
+  margin: 50px 0 100px 0;
 }
 
 .card {
@@ -112,5 +113,48 @@ header img {
   text-transform: uppercase;
   font-size: 40px;
   margin: 10px 10px;
+}
+
+.portfolio {
+  background-color: #F7F7F7;
+  height: 100vh;
+  padding: 50px 0 50px 0;
+}
+
+.card-two {
+  position: relative;
+  height: 320px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  text-align: center;
+  background-color: white;
+  margin-top: 70px;
+  border-radius: 10%;
+}
+
+.card-two img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: text-top;
+  border-style: none;
+  margin-left: -175px;
+}
+
+.card-body-two {
+  text-align: center;
+  margin: 100px;
+}
+
+.card-body-two {
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  left: 0%;
+  bottom: -30%;
 }
 /*# sourceMappingURL=style.css.map */
