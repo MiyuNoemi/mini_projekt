@@ -4,57 +4,68 @@
   box-sizing: border-box;
 }
 
-/*header*/
-.menu {
-  max-width: 1140px;
-  margin: 30px auto;
-  position: relative;
+/*splash*/
+.info,
+.portfolio {
+  text-align: center;
 }
 
-div.logo,
-nav ul,
-div.welcome,
 img {
   position: absolute;
 }
 
-.logo {
-  font-family: "Pacifico", cursive;
-  color: orange;
-  font-size: 40px;
+.splash {
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../images/home-office.jpg");
 }
 
-.navigation {
-  margin-top: 30px;
-  right: 0;
-  top: 0;
+nav {
+  padding-top: 40px;
 }
 
-.navigation li {
+nav ul {
+  position: relative;
+  text-align: right;
+}
+
+nav li {
   display: inline-block;
   list-style: none;
 }
 
-.navigation a {
+nav a {
   text-transform: uppercase;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  padding: 10px 20px;
+  padding: 10px 0 0 30px;
   color: white;
   font-size: 20px;
-  text-align: right;
+}
+
+nav .container h1 {
+  position: absolute;
+  font-size: 50px;
+  color: orange;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  text-align: left;
 }
 
 div.welcome {
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -60%);
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 div.welcome h1,
 div.welcome h2 {
   color: white;
   font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
 }
 
 div.welcome h1 {
@@ -68,7 +79,10 @@ div.welcome h2 {
 }
 
 button {
-  margin: 10% 40%;
+  height: 70px;
+  width: 180px;
+  margin: 10% 0 0 50%;
+  transform: translateX(-50%);
   padding: 20px 35px;
   border-radius: 5%;
   border: orange solid 1px;
@@ -76,25 +90,6 @@ button {
   color: white;
   text-transform: uppercase;
   font-size: 20px;
-}
-
-header {
-  height: 100vh;
-}
-
-header img {
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.info,
-.title {
-  text-align: center;
-  margin: 50px 0 100px 0;
 }
 
 .card {
