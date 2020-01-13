@@ -76,7 +76,6 @@ div.welcome h2 {
 }
 
 div.welcome h1 {
-    text-align: center;
     font-size: 25px;
     text-transform: uppercase;
 }
@@ -101,6 +100,7 @@ button {
 
 .card {
     margin-top: 70px;
+    margin-bottom: 50px;
     padding-left: 75px;
     font-family: $font-one;
     font-size: 20px;
@@ -183,4 +183,41 @@ button {
     color: $color-logo;
     font-size: 20px;
     text-align: left;
+}
+
+/*Media Querries*/
+@media (max-width: 768px) {
+    .container  { 
+        text-align: center;
+        font-size: 20px;
+    }
+
+    nav li {
+        display: block;
+        text-align: right;
+    }
+
+    nav a {
+        font-size: 25px;
+    }
+
+    
+    div.welcome h1 ,
+    div.welcome h2 {
+        font-size: 0px;
+    }
+
+    button {
+        height: 70px;
+        width: 180px;
+    }
+
+    .card-body {
+        margin-top: 200px;
+        margin-left: -150px;
+    }
+
+    .card-two img {
+        margin-left: -225px;
+    }
 }
