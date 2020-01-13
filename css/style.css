@@ -5,7 +5,7 @@
 }
 
 /*header*/
-nav {
+.menu {
   max-width: 1140px;
   margin: 30px auto;
   position: relative;
@@ -18,30 +18,31 @@ img {
   position: absolute;
 }
 
-.logo h1 {
+.logo {
   font-family: "Pacifico", cursive;
   color: orange;
-  font-size: 50px;
+  font-size: 40px;
 }
 
-nav ul {
+.navigation {
   margin-top: 30px;
   right: 0;
   top: 0;
 }
 
-nav li {
+.navigation li {
   display: inline-block;
   list-style: none;
 }
 
-nav a {
+.navigation a {
   text-transform: uppercase;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   padding: 10px 20px;
   color: white;
   font-size: 20px;
+  text-align: right;
 }
 
 div.welcome {
@@ -82,7 +83,7 @@ header {
 }
 
 header img {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-size: cover;
   top: 0;
